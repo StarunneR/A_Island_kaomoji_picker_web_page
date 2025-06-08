@@ -35,7 +35,7 @@
 }
 
 .emoji {
-    font-family: Roboto, Helvetica, Arial, sans-serif, "MS PGothic";
+    font-family: Roboto, Helvetica, Arial, "MS PGothic";
     min-width: 12%;
     /*height: 40px;*/
     padding: 10px;
@@ -45,6 +45,10 @@
     user-select: none;
     cursor: copy;
     white-space: pre-line;
+}
+
+.emoji-list:last-child .emoji {
+    text-align: start;
 }
 
 .emoji:hover {
